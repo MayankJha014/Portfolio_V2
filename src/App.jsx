@@ -11,12 +11,16 @@ import Portfolio from "./Portfolio";
 import Contact from "./Contact";
 import { Toaster } from "react-hot-toast";
 import Snowfall from "./snow";
+import { motion, AnimatePresence } from "framer-motion";
 
 function App() {
   const [active, setActive] = useState(0);
 
   const [activeSidebar, setActiveSidebar] = useState(false);
-
+  const transition = {
+    duration: 0.5,
+    ease: "linear",
+  };
   return (
     <>
       <Toaster />
@@ -234,26 +238,56 @@ function App() {
               </li>{" "}
             </ul>{" "}
           </nav>
-          <div
-            className={`${active === 0 ? "opacity-100" : "opacity-0 hidden"}`}
-          >
-            <About />
-          </div>
-          <div
-            className={`${active === 1 ? "opacity-100" : "opacity-0 hidden"}`}
-          >
-            <Resume />
-          </div>
-          <div
-            className={`${active === 2 ? "opacity-100" : "opacity-0 hidden"}`}
-          >
-            <Portfolio />
-          </div>
-          <div
-            className={`${active === 3 ? "opacity-100" : "opacity-0 hidden"}`}
-          >
-            <Contact />
-          </div>
+          <AnimatePresence>
+            {active === 0 && (
+              <motion.div
+                key="about"
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                exit={{ opacity: 0 }}
+                transition={transition}
+                className="transition-opacity visible"
+              >
+                <About />
+              </motion.div>
+            )}
+            {active === 1 && (
+              <motion.div
+                key="resume"
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                exit={{ opacity: 0 }}
+                transition={transition}
+                className="transition-opacity visible"
+              >
+                <Resume />
+              </motion.div>
+            )}
+            {active === 2 && (
+              <motion.div
+                key="portfolio"
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                exit={{ opacity: 0 }}
+                transition={transition}
+                className="transition-opacity visible"
+              >
+                <Portfolio />
+              </motion.div>
+            )}
+            {active === 3 && (
+              <motion.div
+                key="contact"
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                exit={{ opacity: 0 }}
+                transition={transition}
+                className="transition-opacity visible"
+              >
+                <Contact />
+              </motion.div>
+            )}
+          </AnimatePresence>
         </div>{" "}
         {/* </div> */}
         <nav
