@@ -120,7 +120,7 @@ const Resume = () => {
                 Bharat Heavy Electricals Limited (BHEL)
               </h4>
 
-              <span>2010 — 2013</span>
+              <span>April 2023 — May 2023</span>
 
               <p class="timeline-text">
                 Consulted on migrating existing Oracle Forms and Reports 11g
