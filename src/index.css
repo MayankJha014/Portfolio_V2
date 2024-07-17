@@ -15,7 +15,7 @@ body {
 }
 
 .sidebar {
-  @apply bg-eerie-black-2 relative xl:sticky top-[60px] p-5 xl:p-8   ms-auto me-auto pt-14 h-full max-h-max xl:max-w-[1200px] w-11/12 sm:w-3/4 m-auto xl:m-0 mb-0  rounded-2xl  border border-[#383838] shadow-lg;
+  @apply bg-eerie-black-2 relative xl:sticky top-[60px] p-5 xl:p-8   ms-auto me-auto pt-14 h-full max-h-max xl:max-w-[1200px] w-11/12 sm:w-3/4 m-auto xl:m-0  rounded-2xl  border border-[#383838] shadow-lg;
 }
 .separator {
   @apply w-full h-[1px] bg-jet my-8;

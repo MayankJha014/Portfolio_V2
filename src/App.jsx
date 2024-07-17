@@ -179,7 +179,7 @@ function App() {
         </aside>
         {/* </div> */}
         {/* <div className="w-3/4 min-w-[75%] relative bg-white"> */}
-        <div class="main-content sidebar mt-[10px]">
+        <div class="!mb-20 main-content sidebar mt-[10px]">
           <nav class="navbar">
             {" "}
             <ul class="navbar-list font-poppins">
