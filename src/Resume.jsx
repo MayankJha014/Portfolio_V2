@@ -99,6 +99,20 @@ const Resume = () => {
             </li>
 
             <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">
+                Bharat Heavy Electricals Limited (BHEL)
+              </h4>
+
+              <span>April 2023 — May 2023</span>
+
+              <p class="timeline-text">
+                Consulted on migrating existing Oracle Forms and Reports 11g
+                software to the latest open-source technology while maintaining
+                the database, and successfully developed and deployed the BHEL
+                Pharmacy System as a proof of concept (PoC).
+              </p>
+            </li>
+            <li class="timeline-item">
               <h4 class="h4 timeline-item-title">Acompworld Technosoft</h4>
 
               <span> Feb 2023 — April 2023</span>
@@ -112,21 +126,6 @@ const Resume = () => {
                 Led integration of an advanced inventory management solution,
                 including procurement, inventory tracking, vendor and workforce
                 management, QR code tagging, and transportation logistics.
-              </p>
-            </li>
-
-            <li class="timeline-item">
-              <h4 class="h4 timeline-item-title">
-                Bharat Heavy Electricals Limited (BHEL)
-              </h4>
-
-              <span>April 2023 — May 2023</span>
-
-              <p class="timeline-text">
-                Consulted on migrating existing Oracle Forms and Reports 11g
-                software to the latest open-source technology while maintaining
-                the database, and successfully developed and deployed the BHEL
-                Pharmacy System as a proof of concept (PoC).
               </p>
             </li>
           </ol>
