@@ -77,10 +77,10 @@ function App() {
                   <p class="contact-title">Email</p>
 
                   <a
-                    href="mailto:mayankjha014@gmail.com"
+                    href="mailto:mayankjha0330@gmail.com"
                     class="contact-link break-all"
                   >
-                    mayankjha014@gmail.com
+                    mayankjha0330@gmail.com
                   </a>
                 </div>
               </li>
@@ -101,8 +101,8 @@ function App() {
                 <div class="contact-info">
                   <p class="contact-title">Phone</p>
 
-                  <a href="tel:+12133522795" class="contact-link">
-                    +91 6201770073
+                  <a href="tel:+916202913237" class="contact-link">
+                    +91 6202913237
                   </a>
                 </div>
               </li>
