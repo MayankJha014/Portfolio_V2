@@ -116,7 +116,7 @@ body {
 }
 
 .navbar-link {
-  @apply py-5 px-2   hover:text-light-gray-70 hover:font-medium;
+  @apply px-3 h-16;   
 }
 
 .timeline {
